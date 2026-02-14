@@ -1,0 +1,80 @@
+{
+    "name": "@masternemo/hyper-express",
+    "version": "6.18.0",
+    "description": "Community fork of hyper-express — High performance Node.js webserver with built-in CORS, Helmet & Zod validation, powered by uWebsockets.js.",
+    "main": "index.js",
+    "types": "./types/index.d.ts",
+    "scripts": {
+        "test": "node tests/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dragon-InterActive/hyper-express.git"
+    },
+    "keywords": [
+        "uws",
+        "websockets",
+        "uwebsocketsjs",
+        "express",
+        "expressjs",
+        "fast",
+        "http-server",
+        "https-server",
+        "http",
+        "https",
+        "sse",
+        "events",
+        "streaming",
+        "stream",
+        "upload",
+        "file",
+        "multipart",
+        "ws",
+        "websocket",
+        "performance",
+        "router",
+        "cors",
+        "helmet",
+        "security",
+        "zod",
+        "validation"
+    ],
+    "author": "HyperExpress Community",
+    "contributors": [
+        {
+            "name": "Kartik Kumar",
+            "url": "https://github.com/kartikk221",
+            "note": "Original author of hyper-express"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Dragon-InterActive/hyper-express/issues"
+    },
+    "homepage": "https://github.com/Dragon-InterActive/hyper-express#readme",
+    "dependencies": {
+        "busboy": "^1.6.0",
+        "cookie": "^1.0.1",
+        "cookie-signature": "^1.2.1",
+        "mime-types": "^2.1.35",
+        "negotiator": "^1.0.0",
+        "range-parser": "^1.2.1",
+        "type-is": "^1.6.18",
+        "typed-emitter": "^2.1.0",
+        "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.57.0"
+    },
+    "peerDependencies": {
+        "zod": "^3.0.0 || ^4.0.0"
+    },
+    "peerDependenciesMeta": {
+        "zod": {
+            "optional": true
+        }
+    },
+    "devDependencies": {
+        "@types/busboy": "^1.5.4",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.7.5",
+        "typescript": "^5.6.3"
+    }
+}
